@@ -3,20 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GreenRoots Community Garden promotes urban agriculture and sustainable living in Cape Town. Join our community events, volunteer, and support local green initiatives.">
   <title>GreenRoots Community Garden - One Page</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #2e7d32; color: white; padding: 1rem; text-align: center; }
-    nav { background: #388e3c; padding: 0.5rem; text-align: center; position: sticky; top: 0; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    section { padding: 50px 20px; max-width: 900px; margin: auto; }
-    footer { background: #2e7d32; color: white; text-align: center; padding: 1rem; margin-top: 20px; }
-    img { max-width: 100%; height: auto; border-radius: 5px; margin-top: 10px; }
-    html { scroll-behavior: smooth; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <!-- HEADER -->
   <header>
     <h1>GreenRoots Community Garden</h1>
@@ -25,7 +17,7 @@
   </header>
 
   <!-- NAVIGATION -->
-  <nav>
+  <nav aria-label="Main Navigation">
     <a href="#home">Home</a>
     <a href="#about">About Us</a>
     <a href="#events">Events</a>
@@ -33,51 +25,64 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <!-- HOME SECTION -->
-  <section id="home">
-    <h2>Welcome to GreenRoots</h2>
-    <p>GreenRoots Community Garden is a non-profit organization founded in 2015 to promote urban agriculture and environmental awareness. We provide gardening plots for local residents and run educational workshops for schools and community groups.</p>
-    <img src="HomeGarden.jpg" alt="Volunteers working in the garden">
-  </section>
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home">
+      <div class="text">
+        <h2>Welcome to GreenRoots</h2>
+        <p>GreenRoots Community Garden is a non-profit organization founded in 2015 to promote urban agriculture and environmental awareness. We provide gardening plots for local residents and run educational workshops for schools and community groups.</p>
+      </div>
+      <img src="home-garden.jpg" alt="Volunteers working in the garden">
+    </section>
 
-  <!-- ABOUT SECTION -->
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Our mission is to cultivate healthy communities through gardening and sustainable living. Our vision is to be a model for community-driven environmental stewardship.</p>
-    <img src="about Team.jpg" alt="GreenRoots volunteers group photo">
-  </section>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="text">
+        <h2>About Us</h2>
+        <p>Our mission is to cultivate healthy communities through gardening and sustainable living. Our vision is to be a model for community-driven environmental stewardship.</p>
+      </div>
+      <img src="about-team.jpg" alt="GreenRoots volunteers group photo">
+    </section>
 
-  <!-- EVENTS SECTION -->
-  <section id="events">
-    <h2>Upcoming Events</h2>
-    <ul>
-      <li>Community Planting Day - March 15, 2025</li>
-      <li>Composting Workshop - April 5, 2025</li>
-      <li>Spring Harvest Festival - May 20, 2025</li>
-    </ul>
-    <img src="Event.jpg" alt="Community members attending an event">
-  </section>
+    <!-- EVENTS SECTION -->
+    <section id="events">
+      <div class="text">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>Community Planting Day - March 15, 2025</li>
+          <li>Composting Workshop - April 5, 2025</li>
+          <li>Spring Harvest Festival - May 20, 2025</li>
+        </ul>
+      </div>
+      <img src="event.jpg" alt="Community members attending an event">
+    </section>
 
-  <!-- VOLUNTEER SECTION -->
-  <section id="volunteer">
-    <h2>Volunteer & Donate</h2>
-    <p>You can help GreenRoots by volunteering at events, maintaining the garden, or making a donation to support our work.</p>
-    <p>Email us at <a href="mailto:volunteer@greenroots.org">volunteer@greenroots.org</a> to join.</p>
-    <img src="donate.jpg" alt="Volunteers planting trees">
-  </section>
+    <!-- VOLUNTEER SECTION -->
+    <section id="volunteer">
+      <div class="text">
+        <h2>Volunteer & Donate</h2>
+        <p>You can help GreenRoots by volunteering at events, maintaining the garden, or making a donation to support our work.</p>
+        <p>Email us at <a href="mailto:volunteer@greenroots.org">volunteer@greenroots.org</a> to join.</p>
+      </div>
+      <img src="donate.jpg" alt="Volunteers planting trees">
+    </section>
 
-  <!-- CONTACT SECTION -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:info@greenroots.org">info@greenroots.org</a></p>
-    <p>Phone: +27 123 456 789</p>
-    <p>Address: 123 Green Street, Cape Town, South Africa</p>
-    <img src="map.jpg" alt="Map showing GreenRoots location">
-  </section>
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div class="text">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@greenroots.org">info@greenroots.org</a></p>
+        <p>Phone: +27 123 456 789</p>
+        <p>Address: 123 Green Street, Cape Town, South Africa</p>
+      </div>
+      <img src="map.jpg" alt="Map showing GreenRoots location">
+    </section>
+  </main>
 
   <!-- FOOTER -->
   <footer>
     <p>&copy; 2025 GreenRoots Community Garden | Designed for educational purposes</p>
   </footer>
+
 </body>
 </html>
