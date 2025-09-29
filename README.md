@@ -96,11 +96,6 @@ This submission includes:
 <img width="1919" height="1030" alt="Screenshot 2025-09-29 113612" src="https://github.com/user-attachments/assets/900b6f48-1258-472a-9d37-7a356374db42" />
 <img width="1903" height="1026" alt="Screenshot 2025-09-29 113631" src="https://github.com/user-attachments/assets/c91b2e04-91fd-459f-98c5-9d4270069e74" />
 
-
-
-
-> **Note:** Replace the placeholders above with actual screenshots from your website.
-
 ---
 
 ## Technologies Used
