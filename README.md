@@ -106,77 +106,87 @@ This submission includes:
 - CSS hover animations  
 
 ---
+## 🧾 What Has Changed (From Old Design to New)
 
-What changed (old ➜ new)
-Structure & Pages
+### 🎨 Visual Design
+| Old | New |
+|-----|-----|
+| Basic static green layout with alternating sections | Modern **non-profit theme** using soft white backgrounds, subtle gradients, and clean green highlights |
+| Limited spacing and small text | **Larger typography**, better hierarchy with headings and color contrast |
+| Repeated image scaling issues | **Fixed image containment** using `aspect-ratio` + `object-fit` for consistent visuals |
+| Flat color header/footer | Gradient **hero banner**, **announcement bar**, and **card-style sections** |
+| Minimal hover states | Subtle **hover animations**, shadows, and smooth transitions |
 
-Old: Single one-page site (index.html) with only HTML/CSS.
+### 🧱 Layout & Structure
+| Old | New |
+|-----|-----|
+| Single-page only (`index.html`) | Multi-page project (`index.html`, `enquiry.html`, `contact.html`) |
+| Basic flexbox layout | Responsive **CSS grid layout** with max-width container |
+| No stats, tabs, or interactivity | Added **hero stats**, **About tabs**, **cards**, **CTA bands**, **partners row** |
+| Navigation links only anchor jumps | **Sticky nav with mobile toggle + blur background** |
 
-New: Multi-file site with progressive enhancement:
+### 🌈 Color Palette Update
+| Element | Old Color | New Color |
+|----------|------------|------------|
+| Primary Green | `#2e7d32` | `#16a34a` (vivid modern green) |
+| Secondary Green | `#388e3c` | `#22c55e` (fresh bright tone) |
+| Background | `#f4f4f4` | `#ffffff` / `#f6f8fb` (soft neutral white) |
+| Text | `#333333` | `#0b1324` (clean dark ink tone) |
+| Accent | none | Gradient buttons, shadows, rounded cards |
 
-index.html (main one-pager, now with JS features)
+---
 
-enquiry.html & contact.html (separate forms per rubric)
+## 🎯 Learning Outcomes (Part 3)
+✅ Implement **JavaScript interactivity**  
+✅ Apply **SEO best practices**  
+✅ Build **validated HTML forms with JS + AJAX preview**  
+✅ Use **GitHub commits** with changelog and README updates  
 
-script.js (tabs, gallery lightbox, events search/sort, Leaflet map)
+---
 
-form.js (client-side validation + error messages + AJAX-style submit preview)
+## ✨ Features Overview
 
-style.css (modern design system + image containment)
+### 🧩 Interactive Elements
+- Sticky nav with mobile menu toggle  
+- Tabs (Mission / Values / Team) under About section  
+- Dynamic Events list (search + sort via JS)  
+- Image Gallery with Lightbox preview  
+- Interactive Map (Leaflet + OpenStreetMap)  
+- Announcement bar + animated hero stats  
 
-robots.txt and sitemap.xml (SEO)
+### 📝 Forms
+- `enquiry.html` – Volunteer / Sponsor / Workshop / Produce requests  
+- `contact.html` – General queries / partnerships / media requests  
+- Client-side **JS validation** (email, phone, required fields)  
+- Inline **error messages**  
+- **AJAX-style submission preview** (fake email output for grading)
 
-Visual Design
+### 🔍 SEO & Accessibility
+- `robots.txt` + `sitemap.xml` for indexing  
+- Meta description, canonical link, semantic headings  
+- Descriptive image alt text  
+- ARIA attributes for accessibility  
+- Mobile-first layout, no sideways scroll  
 
-Old: Basic green theme, alternating sections.
+---
 
-New: Modern non-profit look:
-
-Sticky blur nav, announcement bar, hero with stats, card-based programs & events
-
-Consistent aspect-ratios and object-fit: cover so images never overflow or jump
-
-CTA band, partners row, refined footer with newsletter (fake submit)
-
-Interactivity (JS)
-
-Old: None.
-
-New:
-
-Tabs (Mission / Values / Team)
-
-Events list with search + sort (dynamic render)
-
-Gallery lightbox (click to enlarge)
-
-Leaflet map (real interactive map, no API key)
-
-Accordion (optional; retained pattern), mobile nav toggle
-
-Forms (meets rubric 4.1)
-
-enquiry.html and contact.html each have:
-
-Client-side validation (email, required, phone pattern)
-
-Error handling (inline messages)
-
-AJAX-style submission (no backend needed): compiles a JSON “email preview” in a <pre> block to demonstrate how data would be sent.
-
-Different purposes: enquiry = services/sponsor/volunteer; contact = general message.
-
-SEO
-
-Meta description, canonical (if you keep it), semantic headings
-
-robots.txt and sitemap.xml
-
-Clean internal linking in header/footer
-
-Accessibility & Mobile
-
-Skip link, labelled controls, aria on tabs/lightbox, responsive grids, never any sideways scroll.
+## 🧱 Project Structure
+```bash
+/
+├─ index.html
+├─ enquiry.html
+├─ contact.html
+├─ style.css
+├─ script.js        # navigation, tabs, events, lightbox, map, newsletter
+├─ form.js          # validation + AJAX simulation
+├─ robots.txt
+├─ sitemap.xml
+└─ images/
+   ├─ banner.jpg
+   ├─ about-team.jpg
+   ├─ home-garden.jpg
+   ├─ event.jpg
+   └─ donate.jpg
 
 ## References
 1. [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)  
