@@ -74,6 +74,7 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 ---
 
 ## 📁 Project Structure
+,,,
 /
 ├─ index.html
 ├─ enquiry.html
@@ -89,6 +90,7 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 ├─ home-garden.jpg
 ├─ event.jpg
 └─ donate.jpg
+,,,
 
 ---
 
