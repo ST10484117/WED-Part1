@@ -75,31 +75,29 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 
 ## 📁 Project Structure
 
-'''
-
+```
 📦 GreenRoots_Community_Garden/
 │
-├── index.html → Main homepage (hero, about, events, contact)
-├── enquiry.html → Volunteer & sponsorship enquiry form page
-├── contact.html → General contact and message form page
+├── index.html                → Main homepage (hero, about, events, contact)
+├── enquiry.html              → Volunteer & sponsorship enquiry form page
+├── contact.html              → General contact and message form page
 │
-├── style.css → Main stylesheet (colors, layout, responsiveness)
-├── script.js → Handles navigation, tabs, lightbox, map, events
-├── form.js → Handles form validation and AJAX simulation
+├── style.css                 → Main stylesheet (colors, layout, responsiveness)
+├── script.js                 → Handles navigation, tabs, lightbox, map, events
+├── form.js                   → Handles form validation and AJAX simulation
 │
-├── robots.txt → SEO crawler instructions
-├── sitemap.xml → Sitemap for search engines
+├── robots.txt                → SEO crawler instructions
+├── sitemap.xml               → Sitemap for search engines
 │
-├── images/ → All image assets used in the website
-│ ├── banner.jpg
-│ ├── about-team.jpg
-│ ├── home-garden.jpg
-│ ├── event.jpg
-│ └── donate.jpg
+├── images/                   → All image assets used in the website
+│   ├── banner.jpg
+│   ├── about-team.jpg
+│   ├── home-garden.jpg
+│   ├── event.jpg
+│   └── donate.jpg
 │
-└── README.md → Documentation file (this file)'''
-
----
+└── README.md                 → Documentation file (this file)
+```
 
 ## 🖼 Screenshots
 _Add these after testing your site — or use the placeholders below._
