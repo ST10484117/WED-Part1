@@ -74,6 +74,8 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 ---
 
 ## 📁 Project Structure
+
+'''
 📦 GreenRoots_Community_Garden/
 │
 ├── index.html → Main homepage (hero, about, events, contact)
@@ -95,6 +97,7 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 │ └── donate.jpg
 │
 └── README.md → Documentation file (this file)
+'''
 
 ---
 
