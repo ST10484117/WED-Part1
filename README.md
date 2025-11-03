@@ -25,73 +25,61 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 ### 🎨 Visual Design
 | Old | New |
 |-----|-----|
-| Basic green layout with static sections | Modern **non-profit theme** with gradients, light surfaces, and cards |
-| Images were inconsistent sizes | **Fixed image scaling** using `aspect-ratio` + `object-fit: cover` |
-| Minimal hover and animations | Smooth **hover effects**, **shadows**, and **responsive cards** |
-| No visual depth | Added **gradient hero**, **announcement bar**, and **CTA banners** |
-| Flat typography | **Improved hierarchy** with larger, modern fonts |
-
-### 🧱 Layout & Structure
-| Old | New |
-|-----|-----|
-| Single-page only (`index.html`) | Multi-page project: `index.html`, `enquiry.html`, `contact.html` |
-| Simple flex layout | Responsive **CSS grid** with consistent containers |
-| No interactivity | Added **tabs**, **dynamic events**, **gallery lightbox**, **map** |
-| Static nav bar | **Sticky nav** with **mobile toggle + blur effect** |
+| Flat green background | **Gradient and light surfaces** with soft shadows |
+| Plain text sections | **Card-style layout** with icons and visuals |
+| Simple hover | Smooth **CSS transitions and animations** |
+| No brand color system | Added **consistent palette** with greens and whites |
 
 ### 🌈 Color Palette Update
-| Element | Old Color | New Color |
-|----------|------------|------------|
+| Element | Old | New |
+|----------|------|------|
 | Primary Green | `#2e7d32` | `#16a34a` |
-| Secondary Green | `#388e3c` | `#22c55e` |
+| Accent Green | `#388e3c` | `#22c55e` |
 | Background | `#f4f4f4` | `#ffffff` / `#f6f8fb` |
-| Text | `#333333` | `#0b1324` |
-| Buttons | Flat green | Gradient from light to dark green |
+| Text | `#333` | `#0b1324` |
 
 ---
 
 ## 🎯 Learning Outcomes (Part 3)
 ✅ Implement **JavaScript interactivity**  
 ✅ Apply **SEO best practices**  
-✅ Build **validated HTML forms** with JS and AJAX simulation  
-✅ Maintain proper **Git commits** and **README changelog**  
+✅ Build **validated HTML forms**  
+✅ Maintain proper **Git commits and changelog updates**  
 
 ---
 
 ## ✨ Key Features
 
 ### 🧩 Interactive Elements
-- Tabs (Mission / Values / Team)
-- Dynamic Events list (search + sort)
-- Gallery Lightbox (click to enlarge)
-- Interactive Leaflet Map (zoom & marker popup)
-- Mobile navigation toggle
-- Announcement banner + hero statistics
+- Navigation bar with **mobile toggle**
+- **Tabs** for “Mission”, “Impact”, “Team”
+- **Gallery lightbox** for images
+- **Dynamic events section** (filter + sort)
+- **Leaflet map** with interactive marker
 
 ### 📝 Forms
-- `enquiry.html` — Volunteer / Sponsor / Workshop queries  
-- `contact.html` — General messages / partnerships  
-- **Client-side validation** (email, phone, required fields)  
-- **Inline error messages**  
-- **AJAX-style form preview** (fake email output for testing)
+- `enquiry.html`: allows users to enquire about volunteering or sponsorship  
+- `contact.html`: allows general feedback and messages  
+- Includes:
+  - **Client-side validation** (email, phone, required fields)
+  - **Error handling**
+  - **AJAX-style preview message**
 
 ### 🔍 SEO & Accessibility
-- Added `robots.txt` and `sitemap.xml`  
-- Meta descriptions + canonical link  
-- Alt text for all images  
-- Keyboard-accessible tabs and lightbox  
-- Mobile-first responsive design  
+- Added **robots.txt** and **sitemap.xml**
+- All pages include **meta descriptions** and **canonical links**
+- Alt text for all images
+- Fully responsive, keyboard accessible
 
 ---
 
 ## 📁 Project Structure
-
 /
 ├─ index.html
 ├─ enquiry.html
 ├─ contact.html
 ├─ style.css
-├─ script.js # navigation, tabs, events, lightbox, map, newsletter
+├─ script.js # navigation, tabs, events, lightbox, map
 ├─ form.js # validation + AJAX simulation
 ├─ robots.txt
 ├─ sitemap.xml
@@ -104,99 +92,59 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 
 ---
 
+## 🖼 Screenshots
+_Add these after testing your site — or use the placeholders below._
+
+### 💻 Desktop View
+![Desktop Hero](https://via.placeholder.com/800x400?text=Desktop+View)
+![About Tabs](https://via.placeholder.com/800x400?text=About+Tabs)
+![Event Gallery](https://via.placeholder.com/800x400?text=Event+Gallery)
+
+### 📱 Mobile & Tablet View
+![Mobile Navigation](https://via.placeholder.com/400x700?text=Mobile+Menu)
+![Contact Form](https://via.placeholder.com/400x700?text=Contact+Form)
+
+### 🗺 Map & Interactive Sections
+![Map View](https://via.placeholder.com/800x400?text=Leaflet+Map)
+![Lightbox Gallery](https://via.placeholder.com/800x400?text=Gallery+Lightbox)
+
+---
+
 ## 📚 References
 1. [MDN Web Docs – HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)  
 2. [MDN Web Docs – CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)  
 3. [W3Schools – Responsive Web Design](https://www.w3schools.com/css/css_rwd_intro.asp)  
 4. Online gardening and sustainability resources  
-5. Project brief and materials from **HCMAWD1_G1-3_VCGPSD_2025**
+5. Project brief and resources from **HCMAWD1_G1-3_VCGPSD_2025**
 
 ---
 
 ## 🧭 How to View
 1. Clone or download the repository.  
-2. Ensure `index.html`, `style.css`, and all images are in the same folder.  
-3. Open `index.html` in your browser.  
-4. Test responsiveness across desktop, tablet, and mobile.  
-
----
-
-## 🧠 JavaScript Overview
-| Feature | Description |
-|----------|-------------|
-| **Tabs** | Toggles between Mission, Values, Team with smooth transitions. |
-| **Events** | Populates list from JS array; filters and sorts dynamically. |
-| **Lightbox** | Opens full-screen gallery image; closes with click or ESC. |
-| **Map** | Leaflet map with marker and directions link. |
-| **Forms** | Validates input and simulates async form submission preview. |
-
----
-
-## 📈 SEO Checklist
-- [x] Meta description added  
-- [x] robots.txt + sitemap.xml created  
-- [x] Semantic headings (H1–H3)  
-- [x] Internal linking and descriptive alt text  
-- [x] Mobile viewport meta + responsive CSS  
-
----
-
-## ♿ Accessibility Checklist
-- [x] Skip-to-content link  
-- [x] Labels for inputs  
-- [x] ARIA roles and attributes  
-- [x] Focus-visible elements  
-- [x] No sideways scroll  
-
----
-
-## 🖼 Screenshots (Add Below)
-- Desktop hero and stats  
-- Tabs section (About)  
-- Events filter in action  
-- Gallery lightbox  
-- Map and CTA banner  
-- Enquiry & Contact forms  
+2. Ensure all `.html`, `.css`, `.js`, and image files are in the same folder.  
+3. Open `index.html` in a browser.  
+4. Test navigation, tabs, forms, and map on all screen sizes.  
 
 ---
 
 ## 🧾 Changelog
 | Date | Version | Description |
 |------|----------|-------------|
-| **2025-11-03** | **v2.0** | Added interactivity, validation, AJAX preview, map, SEO files, and new UI design |
-| **2025-09-30** | **v1.5** | Responsive design and hover animations |
-| **2025-09-29** | **v1.0** | Initial HTML & CSS one-page website |
-
----
-
-## 💬 Suggested Commit Messages
-- `feat: add Leaflet map and marker`
-- `feat: add tabs, lightbox, and dynamic events`
-- `feat(forms): add validation and ajax-style preview`
-- `style: redesign color palette and layout`
-- `chore: add robots.txt and sitemap.xml`
-- `fix: prevent image overflow with aspect-ratio`
+| **2025-11-03** | **v2.0** | Full redesign with modern layout, new color palette, interactivity, validation, and SEO. |
+| **2025-09-30** | **v1.5** | Responsive layout and animations added. |
+| **2025-09-29** | **v1.0** | Initial single-page HTML and CSS version. |
 
 ---
 
 ## 🛠 Technologies Used
-- **HTML5** — semantic layout  
-- **CSS3 (Grid & Flexbox)** — responsive styling  
-- **JavaScript (ES6)** — interactivity, DOM manipulation, validation  
-- **Leaflet JS** — interactive mapping  
-- **GitHub** — version control  
-
----
-
-## 📚 References
-1. [MDN Web Docs – HTML, CSS, and JS](https://developer.mozilla.org/)  
-2. [Leaflet Documentation](https://leafletjs.com/reference.html)  
-3. [OpenStreetMap Tile Policy](https://operations.osmfoundation.org/policies/tiles/)  
-4. Varsity College WEDE5020 — Part 3 Brief  
+- HTML5  
+- CSS3 (Grid & Flexbox)  
+- JavaScript (ES6)  
+- Leaflet JS (OpenStreetMap)  
+- GitHub (Version Control)
 
 ---
 
 ## ⚖️ License & Acknowledgements
-This website is created for **educational purposes only** as part of WEDE5020.  
-All images are placeholders or owned by the student.  
-© 2025 GreenRoots Community Garden — Educational Project 🌱
+Created for **educational purposes** under WEDE5020 module.  
+© 2025 GreenRoots Community Garden — Varsity College Sandton 🌿
