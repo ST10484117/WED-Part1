@@ -103,13 +103,12 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 _Add these after testing your site — or use the placeholders below._
 
 ### 💻 Desktop View
-![Desktop Hero](<img width="1919" height="1073" alt="Screenshot 2025-11-03 151957" src="https://github.com/user-attachments/assets/1b217613-6a93-4bad-8952-3b8d4508eb03" />)
-![About Tabs](<img width="1919" height="1079" alt="Screenshot 2025-11-03 152017" src="https://github.com/user-attachments/assets/a78d3c22-5bd8-42b9-a425-b61c6fe4b047" />)
-![Event Gallery](<img width="1917" height="430" alt="Screenshot 2025-11-03 152047" src="https://github.com/user-attachments/assets/217383fc-ca3b-48ab-a0b7-8b3f7b2d93b6" />)
+![Desktop Hero](https://github.com/user-attachments/assets/1b217613-6a93-4bad-8952-3b8d4508eb03)
+![About Tabs](https://github.com/user-attachments/assets/a78d3c22-5bd8-42b9-a425-b61c6fe4b047)
+![Event Gallery](https://github.com/user-attachments/assets/217383fc-ca3b-48ab-a0b7-8b3f7b2d93b6)
 
 ### 🗺 Map & Interactive Sections
-![Map View](<img width="1919" height="843" alt="Screenshot 2025-11-03 152107" src="https://github.com/user-attachments/assets/eb583df2-7d36-4d05-a33a-f08fe54bbca4" />
-)
+![Map View](https://github.com/user-attachments/assets/eb583df2-7d36-4d05-a33a-f08fe54bbca4)
 
 ---
 
