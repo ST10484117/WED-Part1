@@ -85,6 +85,7 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 ---
 
 ## 📁 Project Structure
+
 /
 ├─ index.html
 ├─ enquiry.html
