@@ -108,8 +108,8 @@ _Add these after testing your site — or use the placeholders below._
 ![Event Gallery](https://github.com/user-attachments/assets/217383fc-ca3b-48ab-a0b7-8b3f7b2d93b6)
 
 ### 🗺 Map & Interactive Sections
-![Map View](https://github.com/user-attachments/assets/eb583df2-7d36-4d05-a33a-f08fe54bbca4)
-https://github.com/user-attachments/assets/0b6b0301-0a68-46ca-9900-1ae1b52cdfb5
+![Map View](https://github.com/user-attachments/assets/eb583df2-7d36-4d05-a33a-f08fe54bbca4) 
+![Interactive View](https://github.com/user-attachments/assets/0b6b0301-0a68-46ca-9900-1ae1b52cdfb5) 
 
 
 
