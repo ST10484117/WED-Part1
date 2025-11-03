@@ -107,6 +107,77 @@ This submission includes:
 
 ---
 
+What changed (old ➜ new)
+Structure & Pages
+
+Old: Single one-page site (index.html) with only HTML/CSS.
+
+New: Multi-file site with progressive enhancement:
+
+index.html (main one-pager, now with JS features)
+
+enquiry.html & contact.html (separate forms per rubric)
+
+script.js (tabs, gallery lightbox, events search/sort, Leaflet map)
+
+form.js (client-side validation + error messages + AJAX-style submit preview)
+
+style.css (modern design system + image containment)
+
+robots.txt and sitemap.xml (SEO)
+
+Visual Design
+
+Old: Basic green theme, alternating sections.
+
+New: Modern non-profit look:
+
+Sticky blur nav, announcement bar, hero with stats, card-based programs & events
+
+Consistent aspect-ratios and object-fit: cover so images never overflow or jump
+
+CTA band, partners row, refined footer with newsletter (fake submit)
+
+Interactivity (JS)
+
+Old: None.
+
+New:
+
+Tabs (Mission / Values / Team)
+
+Events list with search + sort (dynamic render)
+
+Gallery lightbox (click to enlarge)
+
+Leaflet map (real interactive map, no API key)
+
+Accordion (optional; retained pattern), mobile nav toggle
+
+Forms (meets rubric 4.1)
+
+enquiry.html and contact.html each have:
+
+Client-side validation (email, required, phone pattern)
+
+Error handling (inline messages)
+
+AJAX-style submission (no backend needed): compiles a JSON “email preview” in a <pre> block to demonstrate how data would be sent.
+
+Different purposes: enquiry = services/sponsor/volunteer; contact = general message.
+
+SEO
+
+Meta description, canonical (if you keep it), semantic headings
+
+robots.txt and sitemap.xml
+
+Clean internal linking in header/footer
+
+Accessibility & Mobile
+
+Skip link, labelled controls, aria on tabs/lightbox, responsive grids, never any sideways scroll.
+
 ## References
 1. [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)  
 2. [MDN Web Docs - CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)  
