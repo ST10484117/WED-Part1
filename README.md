@@ -107,10 +107,6 @@ _Add these after testing your site — or use the placeholders below._
 ![About Tabs](https://via.placeholder.com/800x400?text=About+Tabs)
 ![Event Gallery](https://via.placeholder.com/800x400?text=Event+Gallery)
 
-### 📱 Mobile & Tablet View
-![Mobile Navigation](https://via.placeholder.com/400x700?text=Mobile+Menu)
-![Contact Form](https://via.placeholder.com/400x700?text=Contact+Form)
-
 ### 🗺 Map & Interactive Sections
 ![Map View](https://via.placeholder.com/800x400?text=Leaflet+Map)
 ![Lightbox Gallery](https://via.placeholder.com/800x400?text=Gallery+Lightbox)
