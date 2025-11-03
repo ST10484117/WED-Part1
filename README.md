@@ -108,7 +108,8 @@ _Add these after testing your site — or use the placeholders below._
 ![Event Gallery](<img width="1917" height="430" alt="Screenshot 2025-11-03 152047" src="https://github.com/user-attachments/assets/217383fc-ca3b-48ab-a0b7-8b3f7b2d93b6" />)
 
 ### 🗺 Map & Interactive Sections
-![Map View](<img width="1919" height="843" alt="Screenshot 2025-11-03 152107" src="https://github.com/user-attachments/assets/bec2cfcb-a044-4a86-a9d9-b2d4a56cfe2b" />)
+![Map View](<img width="1919" height="843" alt="Screenshot 2025-11-03 152107" src="https://github.com/user-attachments/assets/eb583df2-7d36-4d05-a33a-f08fe54bbca4" />
+)
 
 ---
 
