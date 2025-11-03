@@ -187,6 +187,8 @@ This submission includes:
    ├─ home-garden.jpg
    ├─ event.jpg
    └─ donate.jpg
+/
+
 
 ## References
 1. [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)  
