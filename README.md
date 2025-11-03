@@ -104,11 +104,14 @@ _Add these after testing your site — or use the placeholders below._
 
 ### 💻 Desktop View
 ![Desktop Hero](https://github.com/user-attachments/assets/1b217613-6a93-4bad-8952-3b8d4508eb03)
+
 ![About Tabs](https://github.com/user-attachments/assets/a78d3c22-5bd8-42b9-a425-b61c6fe4b047)
+
 ![Event Gallery](https://github.com/user-attachments/assets/217383fc-ca3b-48ab-a0b7-8b3f7b2d93b6)
 
 ### 🗺 Map & Interactive Sections
 ![Map View](https://github.com/user-attachments/assets/eb583df2-7d36-4d05-a33a-f08fe54bbca4) 
+
 ![Interactive View](https://github.com/user-attachments/assets/0b6b0301-0a68-46ca-9900-1ae1b52cdfb5) 
 
 
