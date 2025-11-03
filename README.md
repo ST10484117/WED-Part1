@@ -101,3 +101,102 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 ├─ home-garden.jpg
 ├─ event.jpg
 └─ donate.jpg
+
+---
+
+## 📚 References
+1. [MDN Web Docs – HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+2. [MDN Web Docs – CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)  
+3. [W3Schools – Responsive Web Design](https://www.w3schools.com/css/css_rwd_intro.asp)  
+4. Online gardening and sustainability resources  
+5. Project brief and materials from **HCMAWD1_G1-3_VCGPSD_2025**
+
+---
+
+## 🧭 How to View
+1. Clone or download the repository.  
+2. Ensure `index.html`, `style.css`, and all images are in the same folder.  
+3. Open `index.html` in your browser.  
+4. Test responsiveness across desktop, tablet, and mobile.  
+
+---
+
+## 🧠 JavaScript Overview
+| Feature | Description |
+|----------|-------------|
+| **Tabs** | Toggles between Mission, Values, Team with smooth transitions. |
+| **Events** | Populates list from JS array; filters and sorts dynamically. |
+| **Lightbox** | Opens full-screen gallery image; closes with click or ESC. |
+| **Map** | Leaflet map with marker and directions link. |
+| **Forms** | Validates input and simulates async form submission preview. |
+
+---
+
+## 📈 SEO Checklist
+- [x] Meta description added  
+- [x] robots.txt + sitemap.xml created  
+- [x] Semantic headings (H1–H3)  
+- [x] Internal linking and descriptive alt text  
+- [x] Mobile viewport meta + responsive CSS  
+
+---
+
+## ♿ Accessibility Checklist
+- [x] Skip-to-content link  
+- [x] Labels for inputs  
+- [x] ARIA roles and attributes  
+- [x] Focus-visible elements  
+- [x] No sideways scroll  
+
+---
+
+## 🖼 Screenshots (Add Below)
+- Desktop hero and stats  
+- Tabs section (About)  
+- Events filter in action  
+- Gallery lightbox  
+- Map and CTA banner  
+- Enquiry & Contact forms  
+
+---
+
+## 🧾 Changelog
+| Date | Version | Description |
+|------|----------|-------------|
+| **2025-11-03** | **v2.0** | Added interactivity, validation, AJAX preview, map, SEO files, and new UI design |
+| **2025-09-30** | **v1.5** | Responsive design and hover animations |
+| **2025-09-29** | **v1.0** | Initial HTML & CSS one-page website |
+
+---
+
+## 💬 Suggested Commit Messages
+- `feat: add Leaflet map and marker`
+- `feat: add tabs, lightbox, and dynamic events`
+- `feat(forms): add validation and ajax-style preview`
+- `style: redesign color palette and layout`
+- `chore: add robots.txt and sitemap.xml`
+- `fix: prevent image overflow with aspect-ratio`
+
+---
+
+## 🛠 Technologies Used
+- **HTML5** — semantic layout  
+- **CSS3 (Grid & Flexbox)** — responsive styling  
+- **JavaScript (ES6)** — interactivity, DOM manipulation, validation  
+- **Leaflet JS** — interactive mapping  
+- **GitHub** — version control  
+
+---
+
+## 📚 References
+1. [MDN Web Docs – HTML, CSS, and JS](https://developer.mozilla.org/)  
+2. [Leaflet Documentation](https://leafletjs.com/reference.html)  
+3. [OpenStreetMap Tile Policy](https://operations.osmfoundation.org/policies/tiles/)  
+4. Varsity College WEDE5020 — Part 3 Brief  
+
+---
+
+## ⚖️ License & Acknowledgements
+This website is created for **educational purposes only** as part of WEDE5020.  
+All images are placeholders or owned by the student.  
+© 2025 GreenRoots Community Garden — Educational Project 🌱
