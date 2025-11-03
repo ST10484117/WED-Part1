@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | GreenRoots</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header"><div class="container nav">
+    <a class="logo" href="index.html"><span>GreenRoots</span></a>
+  </div></header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Contact</h1>
+      <p class="small">General questions, media, or partnerships — we’d love to hear from you.</p>
+      <form id="contactForm" novalidate>
+        <label>Full Name<input name="name" required maxlength="70" /></label>
+        <label>Email<input name="email" type="email" required /></label>
+        <label>Message Type
+          <select name="topic" required>
+            <option value="">Select…</option>
+            <option>Feedback</option>
+            <option>Partnership</option>
+            <option>Press</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" required minlength="10" maxlength="800"></textarea></label>
+        <div class="form-msg" aria-live="polite"></div>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>&copy; 2025 GreenRoots</p></div></footer>
+  <script src="form.js"></script>
+</body>
+</html>

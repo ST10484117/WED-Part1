@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenRoots Community Garden | Cape Town</title>
+  <meta name="description" content="GreenRoots is a non-profit community garden in Cape Town. We grow food, run workshops, and empower neighbours to live sustainably." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top Announcement -->
+  <div class="bar-announcement" role="region" aria-label="Announcement">
+    🌱 Spring Appeal: Help us fund 200 new seedling trays — <a href="#donate" class="bar-link">donate today</a>.
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="GreenRoots home">
+        <!-- simple leaf logo -->
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M20 4s-7 0-11 4-4 11-4 11 7 0 11-4 4-11 4-11Z" stroke="currentColor" stroke-width="1.5" fill="currentColor" opacity=".12"/>
+          <path d="M20 4c-6 .5-9.5 4-12 7.5S4 20 4 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M8 12c1.5 0 4 2.5 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span>GreenRoots</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <nav id="nav-links" class="links">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#events">Events</a>
+        <a href="#impact">Impact</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a class="btn sm" href="#donate">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Together, we grow food and opportunity.</h1>
+        <p>GreenRoots is a non-profit community garden in Cape Town. We provide plots, practical workshops, and fresh produce for families in need.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#volunteer">Volunteer</a>
+          <a class="btn ghost" href="enquiry.html">Enquire</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="stat-num">1.2t</span><span class="stat-label">food donated (2024)</span></div>
+          <div class="stat"><span class="stat-num">400+</span><span class="stat-label">learners trained</span></div>
+          <div class="stat"><span class="stat-num">85</span><span class="stat-label">active volunteers</span></div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img class="hero-img" src="banner.jpg" alt="Volunteers harvesting vegetables at GreenRoots" />
+      </div>
+    </div>
+    <div class="hero-gradient" aria-hidden="true"></div>
+  </section>
+
+  <main id="main">
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid">
+        <div class="text">
+          <h2>Who we are</h2>
+          <p>Founded in 2015, we’re a registered non-profit dedicated to urban agriculture and climate-smart living. Our garden is a space to learn, grow, and connect.</p>
+          <div class="tabs" role="tablist" aria-label="About tabs">
+            <button class="tab active" aria-controls="tab-mission" aria-selected="true">Mission</button>
+            <button class="tab" aria-controls="tab-values" aria-selected="false">Values</button>
+            <button class="tab" aria-controls="tab-team" aria-selected="false">Team</button>
+          </div>
+          <div id="tab-mission" class="tab-panel active">
+            <ul class="icon-list">
+              <li>Empower neighbours with practical food-growing skills.</li>
+              <li>Reduce waste via composting and water-wise gardening.</li>
+              <li>Share harvests with local shelters and schools.</li>
+            </ul>
+          </div>
+          <div id="tab-values" class="tab-panel">
+            <p>Community • Stewardship • Inclusion • Transparency • Action</p>
+          </div>
+          <div id="tab-team" class="tab-panel">
+            <p>Our team is 100% volunteer-led, supported by local partners and micro-grants.</p>
+          </div>
+        </div>
+        <figure class="media">
+          <img src="about-team.jpg" alt="GreenRoots volunteers after planting session" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Programs (cards) -->
+    <section id="programs" class="section alt">
+      <div class="container">
+        <h2>What we do</h2>
+        <ul class="cards">
+          <li class="card">
+            <div class="card-ico">🌿</div>
+            <h3>Community Plots</h3>
+            <p>Low-cost plots for residents with tools and seeds provided.</p>
+          </li>
+          <li class="card">
+            <div class="card-ico">♻️</div>
+            <h3>Compost & Water-Wise</h3>
+            <p>Hands-on workshops to turn waste into soil and save water.</p>
+          </li>
+          <li class="card">
+            <div class="card-ico">🍅</div>
+            <h3>Food Relief</h3>
+            <p>Weekly harvest donations to nearby shelters and schools.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Upcoming Events</h2>
+          <div class="filters">
+            <input id="eventSearch" type="search" placeholder="Search events…" />
+            <select id="eventSort">
+              <option value="date-asc">Soonest first</option>
+              <option value="date-desc">Latest first</option>
+              <option value="name-asc">Name A–Z</option>
+              <option value="name-desc">Name Z–A</option>
+            </select>
+          </div>
+        </div>
+        <ul id="eventList" class="cards"></ul>
+      </div>
+    </section>
+
+    <!-- Impact / Map -->
+    <section id="impact" class="section alt">
+      <div class="container grid">
+        <div class="text">
+          <h2>Our impact</h2>
+          <p>Every season we track what matters: food grown, workshops delivered, and people supported.</p>
+          <dl class="kpis">
+            <div><dt>Seedlings distributed</dt><dd>7,800</dd></div>
+            <div><dt>Workshops run</dt><dd>62</dd></div>
+            <div><dt>Households supported</dt><dd>230</dd></div>
+          </dl>
+          <a class="btn" href="#donate">Support the mission</a>
+        </div>
+        <div class="media">
+          <div id="map" role="region" aria-label="Map showing GreenRoots location"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2>Life in the garden</h2>
+        <p class="small">Click any photo to view it larger.</p>
+        <div class="gallery">
+          <img class="gl" src="home-garden.jpg" alt="Demo bed with vegetables" />
+          <img class="gl" src="home-garden2.jpg" alt="Workshop in progress" />
+          <img class="gl" src="home-garden3.jpg" alt="Volunteers planting trees" />
+        </div>
+      </div>
+      <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" alt="" />
+        <p id="lightbox-cap"></p>
+      </div>
+    </section>
+
+    <!-- Donate / Volunteer CTA -->
+    <section id="donate" class="section cta">
+      <div class="container cta-box">
+        <div class="cta-copy">
+          <h2>Make a difference today</h2>
+          <p>Your donation funds seedlings, soil, and school workshops. Or give your time and join the crew.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn" href="enquiry.html">Sponsor / Enquire</a>
+          <a class="btn ghost" href="#volunteer">Volunteer</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteer -->
+    <section id="volunteer" class="section alt">
+      <div class="container grid">
+        <div class="text">
+          <h2>Volunteer</h2>
+          <p>We meet Saturdays 09:00–12:00. No experience needed. Tools, gloves, and snacks provided.</p>
+          <a class="btn" href="contact.html">Contact us</a>
+        </div>
+        <figure class="media">
+          <img src="donate.jpg" alt="Group of volunteers smiling in the garden" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="section partners">
+      <div class="container">
+        <h2>Partners & Friends</h2>
+        <ul class="logo-row">
+          <li class="logo-pill">City Parks</li>
+          <li class="logo-pill">Local School</li>
+          <li class="logo-pill">Seed Co.</li>
+          <li class="logo-pill">Water SA</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="foot-about">
+        <h3>GreenRoots</h3>
+        <p class="small">Registered NPO — empowering communities through gardening and environmental education.</p>
+      </div>
+      <nav class="foot-nav">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#events">Events</a>
+        <a href="#impact">Impact</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+      <form id="newsletter" class="newsletter" novalidate>
+        <label for="nl">Join our newsletter</label>
+        <div class="nl-row">
+          <input id="nl" name="email" type="email" placeholder="you@example.com" required>
+          <button class="btn sm" type="submit">Subscribe</button>
+        </div>
+        <div class="form-msg small" aria-live="polite"></div>
+      </form>
+    </div>
+    <div class="foot-bottom">
+      <div class="container">
+        <p>&copy; 2025 GreenRoots Community Garden • Educational project</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
