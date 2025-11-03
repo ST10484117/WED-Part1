@@ -85,3 +85,18 @@ This project demonstrates a fully responsive, modern, and accessible multi-page 
 ---
 
 ## 📁 Project Structure
+/
+├─ index.html
+├─ enquiry.html
+├─ contact.html
+├─ style.css
+├─ script.js # navigation, tabs, events, lightbox, map, newsletter
+├─ form.js # validation + AJAX simulation
+├─ robots.txt
+├─ sitemap.xml
+└─ images/
+├─ banner.jpg
+├─ about-team.jpg
+├─ home-garden.jpg
+├─ event.jpg
+└─ donate.jpg
